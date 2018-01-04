@@ -1,4 +1,4 @@
-# xy-grid cheatsheet
+FOUNDATION XY-GRID Horizontal / Basic Grid Cheatsheet
 
 - The Foundation XY Grid System is a 12 column grid system based on Flexbox. 
 - The flex grid has 12 spaces/cells per row.  Going over 12 measures means that items will wrap underneath
