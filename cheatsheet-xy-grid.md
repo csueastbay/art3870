@@ -1,11 +1,10 @@
-- [ ]
-The Foundation XY Grid System is a 12 column grid system based on Flexbox. 
+# xy-grid cheatsheet
 
-The flex grid has 12 spaces/cells per row.  Going over 12 measures means that items will wrap underneath
+- The Foundation XY Grid System is a 12 column grid system based on Flexbox. 
+- The flex grid has 12 spaces/cells per row.  Going over 12 measures means that items will wrap underneath
+- &lt;DIV&gt; are used for demonstration only - use semantic tags where appropriate.
 
-&lt;DIV&gt; are used for demonstration only - use semantic tags where appropriate.
-
-SIZING COLUMNS/CELLS
+## SIZING COLUMNS/CELLS
 | CLASS NAME | WHAT IT DOES | EXAMPLE|
 |------------|--------------|--------|
 | cell | declares a cell, full width  by default | ```<div class="cell">...</div>```|
@@ -16,6 +15,6 @@ ___NOTE___ Foundation is mobile first, that means small-size is the default for 
 
 
 
-CLASS NAME | WHAT IT DOES | EXAMPLE
+|CLASS NAME | WHAT IT DOES | EXAMPLE
 
 
