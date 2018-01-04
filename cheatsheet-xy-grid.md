@@ -8,7 +8,7 @@ ___NOTES:___ Foundation is mobile first, that means small-size is the default fo
 ## SIZING COLUMNS/CELLS
 | CLASS NAME | WHAT IT DOES | EXAMPLE|
 |------------|--------------|--------|
-|`.grid&ndash;x` | creates a wrapper for a horizontal grid |```<div class="grid-x"><div class="cell">...</div></div>```|
+|.grid&ndash;x | creates a wrapper for a horizontal grid |```<div class="grid-x"><div class="cell">...</div></div>```|
 | `.grid-margin-x` | adds margins to the left and right sides of each cell|```<div class="grid-x grid-margin-x"><div class="cell">...</div></div>```|
 | `.grid-padding-x` | adds padding to the left and right sides of each cell|```<div class="grid-x grid-margin-x"><div class="cell">...</div></div>```|
 |`.grid-container`|By default the grid system expands to fit the __full browser window__.Grid container creates a max-width of 1200px and centers the containner on the page.|```<div class="grid-container"><div class="grid-x"><div class="cell">...</div></div></div>```|
