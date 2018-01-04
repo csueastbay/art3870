@@ -13,8 +13,9 @@ ___NOTES:___ Foundation is mobile first, that means small-size is the default fo
 | .medium-1 ... .medium-12 | specifies width for medium screens and larger | ```<div class="cell medium-2">...</div>``` |
 | .large-1 ... .large-12 | specifies width for large screens | ```<div class="cell large-2">...</div>``` |
 | .auto |use to automaticially let foundation calculate the space that is left over for small or larger|``` <div class="cell small-4">...</div><div class="auto cell">...</div><div class="auto cell">...</div><div class="auto cell">...</div>```|
-|medium-auto|same as above for medium or larger||
-|large-auto|same as above for large||
+|.medium-auto|same as above for medium or larger||
+|.large-auto|same as above for large||
+|.shrink| Only take up the space the content needs.||
 
 ## ROWS/CONTAINERS
 | CLASS NAME | WHAT IT DOES | EXAMPLE|
@@ -42,8 +43,15 @@ ___NOTES:___ Foundation is mobile first, that means small-size is the default fo
 ## UTILITIES
 | CLASS NAME | WHAT IT DOES | EXAMPLE|
 |------------|--------------|--------|
-|left |does |.|
-|right |does |.|
+| left |does |.|
+| right |does |.|
+| .small-offset-1 ... .small-offset-11| adds a left margin to the cell size based on column count for small and up ||
+| .medium-offset-1 .... .medium-offset-11 |adds a left margin to the cell size based on column count for medium and up ||
+| .large-offset-1 ... .large-offset-11 |adds a left margin to the cell size based on column count for large ||
+| .align-right | Horizontal alignment classes are applied to flex parents. Left alignment is the default| ```<div class="grid-x grid-padding-x align-center"><div class="cell small-4">...</div><div class="cell small-4">...</div></div>```|
+| .align-center | Aligned to the center | ```<div class="grid-x grid-padding-x align-center"><div class="cell small-4">...</div><div class="cell small-4">...</div></div>```|
+| .align-justify| Aligned to the edges | ```<div class="grid-x grid-padding-x align-justify"><div class="cell small-4">...</div><div class="cell small-4">...</div></div>```|
+| .align-spaced | Aligned to the space around | ```<div class="grid-x grid-padding-x align-spaced"><div class="cell small-4">...</div><div class="cell small-4">...</div></div>```|
 
 
 ## BLOCK GRID (creates a series of equally sized items in a block grid, great for gallerys of thumbnails)
@@ -52,9 +60,4 @@ ___NOTES:___ Foundation is mobile first, that means small-size is the default fo
 |.small-up-1 ... .small-up-12| specifies a row of 2 items for small screens and up| ```<div class="grid-x grid-margin-x grid-margin-y small-up-2"><div class="cell"><img src="" alt=""></div></div>```|
 |.medium-up-1 ... .medium-up-12| specifies a row of 2 items for medium screens and up| ```<div class="grid-x grid-margin-x grid-margin-y small-up-2 medium-up-3"><div class="cell"><img src="" alt=""></div></div>```|
 |.large-up-1 ... .large-up-12| specifies a row of 2 items for large screens| ```<div class="grid-x grid-margin-x grid-margin-y small-up-2 medium-up-3 large-up-4"><div class="cell"><img src="" alt=""></div></div>```|
-
-
-grid-y
-grid-margin-y
-grid-padding-y
 
