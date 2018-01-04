@@ -3,10 +3,11 @@ The Foundation XY Grid System is a 12 column grid system based on Flexbox.
 
 The flex grid has 12 spaces/cells per row.  Going over 12 measures means that items will wrap underneath
 
-&gt; DIV &ly; are used for demonstration only - use semantic tags where appropriate.
+&lt;DIV&gt; are used for demonstration only - use semantic tags where appropriate.
 
 SIZING COLUMNS/CELLS
-CLASS NAME | WHAT IT DOES | EXAMPLE
+CLASS NAME | WHAT IT DOES | EXAMPLE|
+|---|---|---|
 cell | declares a cell, full width  by default | ```<div class="cell">...</div>```
 small-1 ... small-12 | specifies width for small screens |
 medium-1 ... medium-12 | specifies width for medium screens |
