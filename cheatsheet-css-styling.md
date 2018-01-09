@@ -52,3 +52,17 @@ callouts have colors and dimentions
 |.card|defines the card|||
 |.card-divider|defines the card divider/header and sets a background color and a border|||
 |.card-section |defines the card content|||
+
+## Get Started With Viewing And Changing CSS - https://developers.google.com/web/tools/chrome-devtools/css/
+## How to Determine Which CSS is Styling an Element - https://atendesigngroup.com/blog/how-determine-which-css-styling-element
+
+![css specificity](https://css-tricks.com/wp-content/csstricks-uploads/specificity-calculationbase.png)
+## CSS Specificity: Things You Should Know - https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+## Specifics on CSS Specificity - https://css-tricks.com/specifics-on-css-specificity/
+
+## css specificity with icons inspired by "The Shining" http://cssspecificity.com/ 
+
+## CSS !important Rule: How to Use It Correctly - https://appendto.com/2016/04/css-important-rule-how-to-use-it-correctly/
+
+
+
