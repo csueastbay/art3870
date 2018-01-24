@@ -40,11 +40,9 @@ ___NOTES:___ Foundation is mobile first, that means small-size is the default fo
 |.medium-order-1 ... medium-order-n | moves the container into the order specified within each enclosing container for medium or larger |.|
 |.large-order-1 ... large-order-n | moves the container into the order specified within each enclosing container for large |.|
 
-## UTILITIES
+## UTILITIES ( https://foundation.zurb.com/sites/docs/flexbox-utilities.html )
 | CLASS NAME | WHAT IT DOES | EXAMPLE|
 |------------|--------------|--------|
-| left |does |.|
-| right |does |.|
 | .small-offset-1 ... .small-offset-11| adds a left margin to the cell size based on column count for small and up ||
 | .medium-offset-1 .... .medium-offset-11 |adds a left margin to the cell size based on column count for medium and up ||
 | .large-offset-1 ... .large-offset-11 |adds a left margin to the cell size based on column count for large ||
