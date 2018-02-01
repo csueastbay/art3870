@@ -28,8 +28,7 @@ Circle Hover Effects with CSS Transitions - https://tympanus.net/codrops/2012/08
 
 How to Create a Fast Hover Slideshow with CSS3 - https://tympanus.net/codrops/2012/05/09/how-to-create-a-fast-hover-slideshow-with-css3/
 
-How to spice up your menu with CSS3
- - https://tympanus.net/codrops/2012/01/22/how-to-spice-up-your-menu-with-css3/
+How to spice up your menu with CSS3 - https://tympanus.net/codrops/2012/01/22/how-to-spice-up-your-menu-with-css3/
  
  Original Hover Effects with CSS3 - https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/
  
