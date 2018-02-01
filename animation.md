@@ -1,5 +1,5 @@
-# CSS Aniamtion
-
+# CSS Animation
+```
 css animation   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 css properties  - https://robots.thoughtbot.com/css-animation-for-beginners
 css sprite animation - http://blog.teamtreehouse.com/css-sprite-sheet-animations-steps
@@ -9,7 +9,7 @@ css transition - https://robots.thoughtbot.com/transitions-and-transforms
                - http://css3.bradshawenterprises.com/transitions/
 
 transition on hover - https://css-tricks.com/almanac/properties/t/transition/
-
+```
 ### Cool Examples / Tutorials
 A collection of CSS3 powered hover effects - http://ianlunn.github.io/Hover/
 
