@@ -18,9 +18,11 @@
         left: -20px;
     }
     ```
+    
     - __sticky__	The element is positioned based on the user's scroll position.  A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.
 
-    ```
+   
+   ```
     div.sticky {
       position: -webkit-sticky;
       position: sticky;
