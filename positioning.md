@@ -8,15 +8,28 @@
   4. chose z-index
 
     - __static__	Default value. Elements render in order, as they appear in the document flow	Play it »
-    - absolute	The element is positioned relative to its first positioned (not static) ancestor element	Play it »
-    - fixed	The element is positioned relative to the browser window	Play it »
-    - relative	The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position	Play it »
-    - sticky	The element is positioned based on the user's scroll position
-    A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+    - __absolute__	The element is positioned relative to its first positioned (not static) ancestor element	Play it »
+    - __fixed__	The element is positioned relative to the browser window	Play it »
+    - __relative__	The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position
 
-    Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.
+    ```
+    h2.pos_left {
+        position: relative;
+        left: -20px;
+    }
+    ```
+    - __sticky__	The element is positioned based on the user's scroll position.  A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.
 
-
+    ```
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 5px;
+      background-color: #cae8ca;
+      border: 2px solid #4CAF50;
+    }
+    ```
 
 ## CSS TRANSFORM
 The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type.
