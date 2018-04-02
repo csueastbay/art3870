@@ -1,10 +1,10 @@
 # Foundation Media Queries cheatsheet
 | Pixel Dimensions | Device | Correponding Class Name| CSS @ rule|
 |---|---|---|---|
-|1280-1024|Desktop|large|`@media all and (min-width: 1024px) and (max-width: 1280px) { }`|
-|1024-768|Tablet Landscape|large|`@media all and (min-width: 1024px) and (max-width: 1280px) { }`|
-|768-480|Tablet Porttrait|medium|`@media all and (min-width: 480px) and (max-width: 768px) { }`|
-|480-less|Mobile Phone Landscape & Smaller (default)|small| `@media all and (max-width: 480px) { }`|
+|1280px-1024p|Desktop|large|`@media all and (min-width: 1024px) and (max-width: 1280px) { }`|
+|1024px-768px|Tablet Landscape|large|`@media all and (min-width: 1024px) and (max-width: 1280px) { }`|
+|768px-480px|Tablet Porttrait|medium|`@media all and (min-width: 480px) and (max-width: 768px) { }`|
+|480px-less|Mobile Phone Landscape & Smaller (default)|small| `@media all and (max-width: 480px) { }`|
 
 Foundation Media Queries - http://foundation.zurb.com/docs/media-queries.html
 
@@ -32,15 +32,12 @@ Foundation Media Queries - http://foundation.zurb.com/docs/media-queries.html
 /* XXLarge screens */
 @media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
  
-/*------------------------------------------*/
- 
- 
-```
+
 /* Portrait */
 @media screen and (orientation:portrait) { /* Portrait styles here */ }
 /* Landscape */
 @media screen and (orientation:landscape) { /* Landscape styles here */ }
-``` 
+
  
 /* CSS for iPhone, iPad, and Retina Displays */
  
@@ -54,7 +51,7 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 }
- 
+
 /* iPhone Portrait */
 @media screen and (max-device-width: 480px) and (orientation:portrait) {
 } 
@@ -70,11 +67,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 /* iPad Landscape */
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
 }
- 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+```
+___ for this to work you must include the foundation css and the mobile meta tag ___
+`<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />`
 
+### Live demo samples
 
-/*------------------------------------------
-  Live demo samples
-   - http://andrelion.github.io/mediaquery/livedemo.html
---------------------------------------------*/
+http://andrelion.github.io/mediaquery/livedemo.html
+
