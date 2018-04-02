@@ -68,7 +68,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
 }
 ```
-___ for this to work you must include the foundation css and the mobile meta tag ___
+___for this to work you must include the foundation css and the mobile meta tag___
+
 `<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />`
 
 ### Live demo samples
